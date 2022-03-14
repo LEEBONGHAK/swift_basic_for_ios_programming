@@ -5,6 +5,12 @@ import Swift
 let someInteger = 100
 
 // MARK: - if-else
+
+/*
+    - if만 단독으로 사용해도 되고, else, else if 와 조합하여 사용 가능
+    - if 뒤의 조건 값에는 Bool타입의 값만 위치해야 한다.
+    - 조건을 감싸는 소괄호()는 선택 사항
+*/
 /*
     if condition {
         statements
@@ -27,6 +33,13 @@ if someInteger < 100 {
 
 
 // MARK: - switch
+/*
+    - 기본적으로 사용하던 정수타입의 값만 비교하는 것이 아닌 대부분의 스위프트 기본 타입을 지원하며, 다양한 패턴과 응용이 가능
+    - 스위프트의 다양한 패턴은 https://docs.swift.org/swift-book/index.html 에서 확인 가능
+    - 각각의 case 내부에는 실행가능한 코드가 반드시 위치해야 한다.
+    - 매우 한정적인 값(ex. enum의 case 등)이 비교값이 아닌 한 default 구문은 반드시 작성해야 한다.
+    - 쉼표(,)를 사용해 하나의 case에 여러 패턴을 명시할 수 있다.
+*/
 /*
     switch value {
         case pattern:
