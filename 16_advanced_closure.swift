@@ -22,7 +22,7 @@ var result: Int
 result = calculate(a: 10, b: 10) { (left: Int, right: Int) -> Int in
     return left * right
 }
-print(result)   // 20
+print(result)   // 100
 
 
 // MARK: - 반환타입 생략

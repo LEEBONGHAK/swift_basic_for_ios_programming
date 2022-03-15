@@ -1,5 +1,0 @@
-{
-    "code-runner.executorMap": {
-        "swift": "cd $dir && C:\\Swift\\bin\\swiftc.exe -swift-version 4 $fileName -o C:\\Swift\\RuntimeEnv\\$fileNameWithoutExt.exe && C:\\Swift\\bin\\run.bat && C:\\Swift\\RuntimeEnv\\$fileNameWithoutExt.exe",
-    },
-}
