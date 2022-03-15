@@ -113,7 +113,7 @@ money.won = 11000
 print(money.won)    // 11000
 
 money.dollor = 10
-print(money.won)    // 11000
+print(money.won)    // 110000
 
 
 // MARK: - 지역 변수, 전역 변수
