@@ -89,5 +89,5 @@ bonghak.class = "스위프트"
 bonghak.selfIntroduce()     // 저는 스위프트반 bonghak입니다.
 
 let jina: Student = Student()
- jina.name = "jina"
- jina.selfIntroduce()   // 저는 Swift반 jina입니다.
+jina.name = "jina"
+jina.selfIntroduce()   // 저는 Swift반 jina입니다.
